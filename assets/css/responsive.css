@@ -1,0 +1,598 @@
+/*---------------------------------------------------------------------
+    Desktop
+-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .banner-content {
+        padding: 25% 0 0;
+    }
+    .slide-content {
+        width: 50%;
+    }
+    .donate-btn button {
+        font-size: 13px;
+        font-weight: 600
+    }
+}
+
+
+/*---------------------------------------------------------------------
+    Tablet Devices
+----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .site-preloader .spinner {
+        margin: 35% auto;
+    }
+    .navbar-brand img {
+        width: 80px;
+        margin: -2px 0 0;
+    }
+    .attr-nav > ul > li > a {
+        margin: 10px 0 0 0;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    #banner-area {
+        height: auto;
+    }
+    .banner-content {
+        padding: 25% 0 0;
+    }
+    .banner-img img {
+        max-width: 300px;
+    }
+    .slide-content {
+        width: 60%;
+    }
+    .section-heading {
+        padding: 0 0 40px;
+    }
+    #about-area {
+        padding: 70px 0 65px;
+    }
+    .about-content {
+        margin: 30px 0 0;
+    }
+    .event-content {
+        padding: 15px 8px 20px;
+    }
+    .event-content h6 {
+        font-size: 12px;
+        line-height: 20px;
+        margin: 6px 0 4px;
+    }
+    .event-content h6 span {
+        padding-right: 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .event-content p {
+        font-size: 12px;
+        line-height: 20px
+    }
+    .donate-input input {
+        border-radius: 25px;
+    }
+    .donate-btn button {
+        border-radius: 25px;
+        margin: 10px 0 0;
+    }
+    #why-vote-us-area {
+        padding: 70px 0 80px;
+    }
+    .why-vote-us-content {
+        margin: 0 0 30px;
+    }
+    #team-area {
+        padding: 70px 0 50px;
+    }
+    .team-single {
+        margin: 0 0 30px;
+    }
+    .contact-form {
+        margin: 0 0 50px;
+    }
+    .blog-sidebar {
+        padding: 20px 10px;
+    }
+    .recent-post-cont {
+        margin: 5px 0 10px;
+        overflow: hidden;
+    }
+    .widget.recent-post {
+        margin: 0;
+    }
+}
+
+
+/*---------------------------------------------------------------------
+    Large Screen Mobile Devices
+-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .site-preloader .spinner {
+        margin: 50% auto;
+    }
+    .header-social {
+        text-align: center;
+        padding: 0 0 6px;
+    }
+    .header-contact-info {
+        text-align: center;
+        margin: 0 0 12px;
+    }
+    .navbar-brand img {
+        width: 80px;
+        margin: -2px 0 0;
+    }
+    .attr-nav > ul > li > a {
+        margin: 10px 10px 0 0;
+        padding: 8px 24px!important;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    #banner-area {
+        height: auto;
+    }
+    .banner-content {
+        padding: 15% 0 20px;
+        text-align: center
+    }
+    .banner-img img {
+        max-width: 250px;
+    }
+    .banner-content h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #slider-area {
+        height: 400px;
+    }
+    .slide-content {
+        width: 80%;
+        margin: -100px auto
+    }
+    .slide-content h1 {
+        padding-bottom: 5px;
+    }
+    .slider-carousel .owl-nav > div {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        padding: 6px 10px;
+        top: 35%
+    }
+    .section-heading {
+        padding: 0 0 25px;
+    }
+    #about-area {
+        padding: 60px 0 55px;
+    }
+    .about-content {
+        margin: 30px 0 0;
+    }
+    #mission-area {
+        padding: 60px 0 40px;
+    }
+    #event-area {
+        padding: 60px 0 40px;
+    }
+    .event-single {
+        margin: 0 0 30px;
+    }
+    #donation-area {
+        padding: 60px 0 70px;
+    }
+    .donate-input input {
+        border-radius: 25px;
+    }
+    .donate-btn button {
+        border-radius: 25px;
+        margin: 10px 0 0;
+    }
+    #why-vote-us-area {
+        padding: 60px 0 70px;
+    }
+    .why-vote-us-content {
+        margin: 0 0 30px;
+    }
+    #gallery-area {
+        padding: 60px 0 65px;
+    }
+    #video-area {
+        padding: 60px 0 70px;
+    }
+    #team-area {
+        padding: 60px 0 40px;
+    }
+    .team-single {
+        margin: 0 0 30px;
+    }
+    #news-area {
+        padding: 60px 0 70px;
+    }
+    #contact-area {
+        padding: 60px 0 70px;
+    }
+    .contact-form {
+        margin: 0 0 30px;
+    }
+    #google-map {
+        height: 300px
+    }
+    .page-heading {
+        padding: 70px 0;
+    }
+    .blog-wrap {
+        padding: 70px 0 45px;
+    }
+    .recent-post-cont {
+        margin: 5px 0 10px;
+        overflow: hidden;
+    }
+    .widget.recent-post {
+        margin: 0;
+    }
+    .blog-single-wrap {
+        padding: 70px 0;
+    }
+    .blog-sidebar {
+        margin: 0 0 40px;
+        padding: 20px 20px 5px
+    }
+    .pagination {
+        margin-top: 0;
+    }
+}
+
+
+/*----------------------------------------------------------------------
+   Medium Screen Mobile Devices
+------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+    .site-preloader .spinner {
+        margin: 60% auto;
+    }
+    .header-social {
+        text-align: center;
+        padding: 0 0 6px;
+    }
+    .header-contact-info {
+        text-align: center;
+        margin: 0 0 12px;
+    }
+    .navbar-brand img {
+        width: 80px;
+        margin: -2px 0 0;
+    }
+    .attr-nav > ul > li > a {
+        margin: 10px 10px 0 0;
+        padding: 8px 24px!important;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    #banner-area {
+        height: auto;
+    }
+    .banner-content {
+        padding: 15% 0 10px;
+        text-align: center
+    }
+    .banner-img img {
+        max-width: 250px;
+    }
+    .banner-content h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #slider-area {
+        height: 400px;
+    }
+    .slide-content {
+        width: 80%;
+        margin: -100px auto
+    }
+    .slide-content a {
+        padding: 8px 26px;
+        margin: 20px 0 0;
+    }
+    .slide-content h1 {
+        padding-bottom: 5px;
+    }
+    .slider-carousel .owl-nav > div {
+        top: 35%;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        padding: 2px 6px;
+    }
+    .section-heading {
+        padding: 0 0 25px;
+    }
+    #about-area {
+        padding: 60px 0 55px;
+    }
+    .about-content {
+        margin: 30px 0 0;
+    }
+    .about-content h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #mission-area {
+        padding: 60px 0 40px;
+    }
+    #event-area {
+        padding: 60px 0 40px;
+    }
+    .event-single {
+        margin: 0 0 30px;
+    }
+    #donation-area {
+        padding: 60px 0 70px;
+    }
+    .donation-form {
+        padding: 0 40px;
+    }
+    .donate-input input {
+        border-radius: 25px;
+    }
+    .donate-btn button {
+        border-radius: 25px;
+        margin: 10px 0 0;
+    }
+    #why-vote-us-area {
+        padding: 60px 0 70px;
+    }
+    .why-vote-us-content {
+        margin: 0 0 30px;
+    }
+    #gallery-area {
+        padding: 60px 0 65px;
+    }
+    .gallery-menu button {
+        padding: 3px 8px;
+        margin: 0 0 20px;
+        font-size: 12px
+    }
+    #video-area {
+        padding: 60px 0 70px;
+    }
+    #team-area {
+        padding: 60px 0 40px;
+    }
+    .team-single {
+        margin: 0 0 30px;
+    }
+    #news-area {
+        padding: 60px 0 70px;
+    }
+    #contact-area {
+        padding: 60px 0 70px;
+    }
+    .contact-form {
+        margin: 0 0 30px;
+    }
+    #google-map {
+        height: 300px
+    }
+    .page-heading {
+        padding: 60px 0;
+    }
+    .blog-wrap {
+        padding: 70px 0 45px;
+    }
+    .recent-post-cont {
+        margin: 5px 0 10px;
+        overflow: hidden;
+    }
+    .widget.recent-post {
+        margin: 0;
+    }
+    .blog-single-wrap {
+        padding: 70px 0;
+    }
+    .blog-sidebar {
+        margin: 0 0 40px;
+        padding: 20px 20px 10px;
+    }
+    .pagination {
+        margin-top: 0;
+    }
+}
+
+
+/*----------------------------------------------------------------------
+    Small Screen Mobile Devices
+-----------------------------------------------------------------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+    .site-preloader .spinner {
+        margin: 60% auto;
+    }
+    .header-social {
+        text-align: center;
+        padding: 0 0 6px;
+    }
+    .header-contact-info {
+        text-align: center;
+        margin: 0 0 12px;
+    }
+    .navbar-brand img {
+        width: 80px;
+        margin: -2px 0 0;
+    }
+    .attr-nav > ul > li > a {
+        margin: 10px 10px 0 0;
+        padding: 8px 24px!important;
+    }
+    h1 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #banner-area {
+        height: auto;
+    }
+    .banner-content {
+        padding: 15% 0 10px;
+        text-align: center
+    }
+    .banner-content h3 {
+        font-size: 16px;
+        line-height: 26px
+    }
+    .banner-img img {
+        max-width: 200px;
+    }
+    .banner-content a {
+        padding: 8px 24px;
+    }
+    #slider-area {
+        height: 400px;
+    }
+    .slide-content {
+        width: 80%;
+        margin: -100px auto
+    }
+    .slide-content a {
+        padding: 8px 26px;
+        margin: 20px 0 0;
+    }
+    .slide-content h1 {
+        padding-bottom: 5px;
+    }
+    .slider-carousel .owl-nav > div {
+        top: 35%;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        padding: 2px 6px;
+    }
+    .section-heading {
+        padding: 0 0 25px;
+    }
+    #about-area {
+        padding: 60px 0 55px;
+    }
+    .about-content {
+        margin: 30px 0 0;
+    }
+    .about-content h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    #mission-area {
+        padding: 60px 0 40px;
+    }
+    #event-area {
+        padding: 60px 0 40px;
+    }
+    .event-single {
+        margin: 0 0 30px
+    }
+    .event-content {
+        padding: 15px 10px 20px;
+    }
+    #donation-area {
+        padding: 60px 0 70px;
+    }
+    .donation-form {
+        padding: 0 40px;
+    }
+    .donate-input input {
+        border-radius: 25px;
+    }
+    .donate-btn button {
+        border-radius: 25px;
+        margin: 10px 0 0;
+    }
+    #why-vote-us-area {
+        padding: 60px 0 70px;
+    }
+    .why-vote-us-content {
+        margin: 0 0 30px;
+    }
+    #gallery-area {
+        padding: 60px 0 65px;
+    }
+    .gallery-menu button {
+        padding: 3px 7px;
+        margin: 0 0 20px;
+        font-size: 11px
+    }
+    #video-area {
+        padding: 60px 0 70px;
+    }
+    #team-area {
+        padding: 60px 0 40px;
+    }
+    .team-single {
+        margin: 0 0 30px;
+    }
+    #news-area {
+        padding: 60px 0 70px;
+    }
+    .post-content {
+        padding: 15px 10px;
+    }
+    #contact-area {
+        padding: 60px 0 70px;
+    }
+    .contact-form {
+        margin: 0 0 30px;
+    }
+    #google-map {
+        height: 300px
+    }
+    .page-heading {
+        padding: 60px 0;
+    }
+    .blog-wrap {
+        padding: 70px 0 45px;
+    }
+    .recent-post-cont {
+        margin: 5px 0 10px;
+        overflow: hidden;
+    }
+    .widget.recent-post {
+        margin: 0;
+    }
+    .blog-single-wrap {
+        padding: 70px 0;
+    }
+    .blog-sidebar {
+        margin: 0 0 40px;
+        padding: 20px 10px 10px;
+    }
+    .pagination {
+        margin-top: 0;
+    }
+}
